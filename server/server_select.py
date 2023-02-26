@@ -29,7 +29,7 @@ def substring_after(s, delim):
 
 
 def main():
-    server_address = ('192.168.1.21', 9009)
+    server_address = ('192.168.1.21', 9999)
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     server_socket.bind(server_address)
