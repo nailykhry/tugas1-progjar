@@ -1,7 +1,7 @@
 import socket
 import sys
 
-HOST, PORT = "127.0.0.1", 9009
+HOST, PORT = "192.168.1.21", 9009
 
 
 def receive_file(sock, file_name):
