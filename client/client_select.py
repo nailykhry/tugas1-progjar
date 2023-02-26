@@ -22,9 +22,9 @@ def main():
     client_socket.connect(server_address)
 
     sys.stdout.write('Enter a command: \n>> ')
-    file_name = input()
+    command = input()
 
-    client_socket.send(file_name.encode())
+    client_socket.send(command.encode())
 
     try:
         header = client_socket.recv(1024).decode()
